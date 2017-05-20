@@ -25,3 +25,5 @@ First, look for the <form runat=”server”> tag in your site. They’re usuall
 To call the validation, just add a call to the trnsACT shared (static) utility.
  
  ![Antiforgery2](../img/antiforgery_2.png)
+
+[Home](../README.md) | [Release Notes](releasenotes.md)

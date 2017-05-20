@@ -30,3 +30,4 @@ A new alternative code approach to authorizing and authenticating users has been
 
 To call the validation, just add a call to the trnsACT shared (static) utility.
  
+[Home](../README.md) | [Release Notes](releasenotes.md)
