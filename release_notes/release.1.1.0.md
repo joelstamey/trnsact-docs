@@ -42,4 +42,4 @@ The NetPanel control will automatically translate the value of the .Net Panel Gr
 
  ![EmailTemplate](../img/site_secure.png)
 
-[Home](../README.md) | [Release Notes](releasenotes.md)
+[Home](../README.md) \| [Release Notes](releasenotes.md)

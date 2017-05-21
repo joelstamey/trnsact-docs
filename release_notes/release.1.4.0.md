@@ -56,5 +56,4 @@ Although trnsACT heavily uses friendly urls (where ~/members/member/somelongbutd
 
 Bundling/minification is another feature for .NET 4.0 MVC that has a Webform workaround. My tests have shown those workarounds to be too slow-- which is strange for a feature that is intended to speed up the page fetch. I am exploring alternate methods of bundling. 
 
-
-[Home](../README.md) | [Release Notes](releasenotes.md)
+[Home](../README.md) \| [Release Notes](releasenotes.md)

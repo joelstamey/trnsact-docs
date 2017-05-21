@@ -47,4 +47,4 @@ European Union law requires that websites post a notice about of the use of cook
 
  ![CookiesNotice](../img/CookiesNotice.png)
 
-[Home](../README.md) | [Release Notes](releasenotes.md)
+[Home](../README.md) \| [Release Notes](releasenotes.md)

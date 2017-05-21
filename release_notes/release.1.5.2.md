@@ -76,4 +76,4 @@ and in the footer, I have changed the jscript links to
 
 Notice that the files come from                 bootstrapcdn that offers free bootstrap hosting for bootstrap/Twitter files and aspnetcdn which is Microsoft’s free CDN service.
 
-[Home](../README.md) | [Release Notes](releasenotes.md)
+[Home](../README.md) \| [Release Notes](releasenotes.md)

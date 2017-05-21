@@ -159,5 +159,4 @@ Renders this:
 
 Zack discovered on Toyota that when using the email address as a username, it’s not permanent. The UserID, a GUID in membership, is unique and permanent, but can be difficult to access. The version of trnsACT adds the UserID as part of the authentication ticket and is always accessible without an additional database call.
 
-
-[Home](../README.md) | [Release Notes](releasenotes.md)
+[Home](../README.md) \| [Release Notes](releasenotes.md)

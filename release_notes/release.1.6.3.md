@@ -26,4 +26,4 @@ To call the validation, just add a call to the trnsACT shared (static) utility.
  
  ![Antiforgery2](../img/antiforgery_2.png)
 
-[Home](../README.md) | [Release Notes](releasenotes.md)
+[Home](../README.md) \| [Release Notes](releasenotes.md)

@@ -50,5 +50,4 @@ This is possible because the site.master masterpage includes a header section wi
 
 But the best practices pattern calls for scripts to be added at end the page load, so how does that happen. Recent versions of sample applications that implement trnsACT include a new pageScriptFooter ContentPlaceHolder so that page-specific scripting can be added at the bottom of the page file. This placeholder is outside the runat="server" form tag so it's not meant for instances of asp or trnsACT controls, it's meant to be able to add instances to scripts that only that page needs. 
 
-
-[Home](../README.md) | [Release Notes](releasenotes.md)
+[Home](../README.md) \| [Release Notes](releasenotes.md)

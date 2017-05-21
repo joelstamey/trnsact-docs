@@ -24,4 +24,4 @@ Additional management tasks/function have been added to the trnsACT Management h
 
  ![Management](../img/ManagementMenu.png)
 
-[Home](../README.md) | [Release Notes](releasenotes.md)
+[Home](../README.md) \| [Release Notes](releasenotes.md)

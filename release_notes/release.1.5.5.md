@@ -81,5 +81,4 @@ With output like this:
     Current User Settings >> Membership Setting: Country Code: 840
     Current User Settings >> Membership Setting: Default User Theme: default
 
-
-[Home](../README.md) | [Release Notes](releasenotes.md)
+[Home](../README.md) \| [Release Notes](releasenotes.md)

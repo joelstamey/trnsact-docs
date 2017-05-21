@@ -26,5 +26,4 @@ The trnsACT Roles Collection now includes a sort method that allows roles to be 
     Next
     rolesStore = Nothing
 
-
-[Home](../README.md) | [Release Notes](releasenotes.md)
+[Home](../README.md) \| [Release Notes](releasenotes.md)

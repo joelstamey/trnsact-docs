@@ -10,4 +10,4 @@ When using the processlogin.ashx handler that inherits from trnsACT.Web.Handlers
 
  ![EmailTemplate](../img/site_secure.png)
 
-[Home](../README.md) | [Release Notes](releasenotes.md)
+[Home](../README.md) \| [Release Notes](releasenotes.md)
