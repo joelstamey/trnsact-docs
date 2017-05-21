@@ -1,4 +1,4 @@
-![Logo](../img/logo_default.png)  
+![Logo](../images/logo_default.png)  
 
 ### *Documentation for the trnsACT Framework*
 

@@ -1,4 +1,4 @@
-![Logo](../img/logo_default.png)  
+![Logo](../images/logo_default.png)  
 
 ### *Documentation for the trnsACT Framework*
 
@@ -20,10 +20,10 @@ This is one of the cross-site vulnerabilities. A hack can harvest the session fo
 The mitigation suggested by Microsoft was retrofitted to .NET 4.0 but it was imperfectly implemented. The version that resolved those issues to make the token validation reliable for .NET 4.0 sites. trnsACT 1.6.3 does the heavy lifting but you’ll need to implement it. 
 First, look for the <form runat=”server”> tag in your site. They’re usually in the nested master pages but you may find them in specific pages like login.aspx. After the form tag add this Microsoft control that will automatically render the form control and create the cookie. 
 
- ![Antiforgery1](../img/antiforgery_1.png)
+ ![Antiforgery1](./images/antiforgery_1.png)
 
 To call the validation, just add a call to the trnsACT shared (static) utility.
  
- ![Antiforgery2](../img/antiforgery_2.png)
+ ![Antiforgery2](./images/antiforgery_2.png)
 
 [Home](../README.md) \| [Release Notes](releasenotes.md)

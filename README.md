@@ -1,5 +1,5 @@
 
-![Logo](./img/logo_default.png)  
+![Logo](./images/logo_default.png)  
 
 ### *Documentation for the trnsACT Framework*
 
@@ -9,9 +9,13 @@ The trnsACT Framework is a .NET framework built to address the challenges faced 
 
 [See more information about trnsACT](./docs/doc.whatisit.md).
 
+## Learn More About trnsACT
+
+[See a collection of topics about trnsACT.](./docs/documents.md).
+
 ## Release Notes
 
-See notes about the [recent versions of trnsACT](./release_notes/releasenotes.md).
+See notes about the [recent versions of trnsACT](./release-notes/releasenotes.md).
 
 
 

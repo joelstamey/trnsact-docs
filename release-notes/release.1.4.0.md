@@ -1,4 +1,4 @@
-![Logo](../img/logo_default.png)  
+![Logo](../images/logo_default.png)  
 
 ### *Documentation for the trnsACT Framework*
 
@@ -10,7 +10,7 @@ The later versions of Visual Studio (2013/2015) offer a new folder structure for
 
 Currently, for a given theme called myTheme we would have themed templates (master pages and skins) in the ~/app_templates/myTheme folder and other assets like css, javascript, font and image files in the ~/app_themes/myTheme folder. This is because ASP.NET prevents storing masterpages in the app_themes folder. The new trnsACT supports the new VS structure where all the theme components are conjoined into a single folder under the ~/Content/themes folder:
  
-![Folders](../img/folderstructure.png)
+![Folders](./images/folderstructure.png)
 
 The notion of a base theme is new for Visual Studio and is intended to contain third party assets like jquery, jquery-ui and bootstrap that will be updated by NuGet or manually. The base assets are not intended to be customized. If you create a theme-specific version of bootstrap.css,  for example, that would be added to the css folder of the theme where trnsACT would automatically use it instead of the base version. I have customized the Microsoft structure to add folders for (HTML email) templates and masterpages. At long last a single theme folder can be used to “drop and play.” 
 
@@ -22,7 +22,7 @@ Corrected a bug with the trnsACT.Web.Utilities.ApplicationName and trnsACT.Web.U
 
 Corrected a bug with the IsInRole function in the base page and base usercontrol classes. This is a nifty little helper-- 
 
- ![ISInRole](../img/ISInRole.png)
+ ![ISInRole](./images/ISInRole.png)
 
 ### Persistent Cookies
 

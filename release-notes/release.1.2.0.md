@@ -1,4 +1,4 @@
-![Logo](../img/logo_default.png)  
+![Logo](../images/logo_default.png)  
 
 ### *Documentation for the trnsACT Framework*
 
@@ -22,6 +22,6 @@ For the Data.GetData member, there is any added parameter that will allow the da
 
 Additional management tasks/function have been added to the trnsACT Management handlers to allow management of the website, content and memberbership. 
 
- ![Management](../img/ManagementMenu.png)
+ ![Management](./images/ManagementMenu.png)
 
 [Home](../README.md) \| [Release Notes](releasenotes.md)

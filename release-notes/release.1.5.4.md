@@ -1,4 +1,4 @@
-![Logo](../img/logo_default.png)  
+![Logo](../images/logo_default.png)  
 
 ### *Documentation for the trnsACT Framework*
 
@@ -20,7 +20,7 @@ Me.gvReport.Columns(1).HeaderText = "promotion".Translate
 
 This this trnsACT build, I have added the standardized set of business labels as static methods, complete with Intellisense support that includes a short description. In this example, the developer can see the use case for the Promotion business label. 
 
- ![BusinessLabels](../img/businesslabels.png)
+ ![BusinessLabels](./images/businesslabels.png)
 
 Business labels are part of the trnsACT.Communication namespace and I’ve them easier to use in my example by adding the namespace to my application scope via the web.config file namespaces node:
 

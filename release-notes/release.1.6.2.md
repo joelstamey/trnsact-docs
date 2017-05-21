@@ -1,4 +1,4 @@
-![Logo](../img/logo_default.png)  
+![Logo](../images/logo_default.png)  
 
 ### *Documentation for the trnsACT Framework*
 
@@ -8,7 +8,7 @@
 
 One of the standard features in our email communication is the “Having trouble” link that provides a link to the message on the webserver. The link includes the Email Log Id that allows the member’s particular message to be retrieved. trnsACT version 1.6 implemented an update to email logging that introduced a bug that caused the email log id to be unavailable at the time the email is being built. This meant that the link in the email did not the email log id value in the query string of the URL. This has been corrected.
 
- ![EmailTemplate](../img/emailtemplate.png)
+ ![EmailTemplate](./images/emailtemplate.png)
 
 
 ### More Bugs Squashed: Miscellaneous
@@ -24,7 +24,7 @@ A number of trapped errors during startup have been removed, including
 A new alternative code approach to authorizing and authenticating users has been added to make the log in process more streamlined and customizable. The new trnsACT.Security.LoginFactory class supports dependency injection of a LoginManager. You can either use the built-in DefaultLoginManager that includes security best practices (recommended) or create your own Login Manager that either inherits from the trnsACT.Security.Login. LoginManagerBase base class or implements the trnsACT.Security.Login.ILoginManager interface directly. 
 
 
- ![LoginFactory](../img/loginfactory.png)
+ ![LoginFactory](./images/loginfactory.png)
 
  This new process was created to streamline the log in process so that custom business logic might be used to write the authentication ticket. The current process writes a generic authentication ticket and then rewrites it in the processlogin handler with custom business logic.
 

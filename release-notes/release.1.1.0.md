@@ -1,4 +1,4 @@
-![Logo](../img/logo_default.png)  
+![Logo](../images/logo_default.png)  
 
 ### *Documentation for the trnsACT Framework*
 
@@ -40,6 +40,6 @@ As a reminder, the versatile trnsACT:NetPanel control has an additional display 
 
 The NetPanel control will automatically translate the value of the .Net Panel GroupingText attribute, which renders in HTML as a fieldset legend.
 
- ![EmailTemplate](../img/site_secure.png)
+ ![EmailTemplate](./images/site_secure.png)
 
 [Home](../README.md) \| [Release Notes](releasenotes.md)
