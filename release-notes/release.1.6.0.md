@@ -16,49 +16,49 @@ Formerly, if there was an error sending emails the email was not logged. This ha
 
 Although we spend a great amount of time coding HTML forms there is a range of options for us to use for the textbox. Look at these controls:
 
- ![Fieldset](../images/fieldset.png)
+ ![Fieldset](./images/fieldset.png)
 
 Did you notice that the first option is a server tag has been added to a regular HTML control? This is how the markup is rendered:
 
- ![Fieldset2](../images/fieldset2.png)
+ ![Fieldset2](./images/fieldset2.png)
 
  For all three textboxes you can both set and retrieve values from code:
 
-  ![Fieldset3](../images/fieldset3.png)
+  ![Fieldset3](./images/fieldset3.png)
 
 But the property name is different. Use [Value] for the input control and use [Text] for the textbox controls.
 
 And new for trnsACT 1.6.0 are some added features to make the NetTextBox control more HTML5-friendly. If you want to set the value in code but you’ll be consuming the entered value client-side – say via an jquery ajax call—it might be better not to have that “ctl00$ctl00$masterContent$pageContent$” prefix in the name. On the trnsACT control set the EnableWireup property to “false.” 
 
-  ![Fieldset4](../images/fieldset4.png)
+  ![Fieldset4](./images/fieldset4.png)
 
 This renders markup that is friendly to client-side scripting. 
 
-  ![Fieldset5](../images/fieldset5.png)
+  ![Fieldset5](./images/fieldset5.png)
 
 If you do a postback, the fact that your control is not wired up means some extra steps. This postback code: 
 
-  ![Fieldset6](../images/fieldset6.png)
+  ![Fieldset6](./images/fieldset6.png)
 
 Renders this output:
 
-  ![Fieldset7](../images/fieldset7.png)
+  ![Fieldset7](./images/fieldset7.png)
 
 Notice that to you’ll need to use the request object to get the value of the trnsACT control with EnableWireup=”false.” Also, there’s no session state to hold on to the control value so you’ll need to reset it yourself. So, this is great for pages with heavy client-side handling but troublesome for pages with resubmit logic on the server side.
 
 The new trnsACT textbox also includes some other properties, including a placeholder (with translation built in) and an IsRequired property that adds the required attribute for browsers supporting HTML5. These controls
 
-  ![Fieldset8](../images/fieldset8.png)
+  ![Fieldset8](./images/fieldset8.png)
 
 Are rendered: 
 
-  ![Fieldset9](../images/fieldset9.png)
+  ![Fieldset9](./images/fieldset9.png)
 
 If you like the trnsACT textbox, you can use tag mapping to automatically use the trnsACT version whenever you use the 
 
     <asp:TextBox tab. In the web.config file, add the tabMapping reference to the configuration/system.web/pages node, as shown here.
 
-  ![Fieldset10](../images/fieldset10.png)
+  ![Fieldset10](./images/fieldset10.png)
 
 It’s convenient but unfortunately the Visual Studio Intellisense for the trnsACT control properties don’t transfer with the mapping.
 
@@ -76,7 +76,7 @@ The default is to not compress pages. So if you want to turn it on and test, jus
 
 Alternatively, for web forms that inherit from trnsACT’s Page object (and why wouldn’t you?) then you can set compression per page. 
 
-  ![PageCompression](../images/pagecompression.png)
+  ![PageCompression](./images/pagecompression.png)
 
 ### Changes in NetImage Control
 
@@ -109,7 +109,7 @@ If you don’t want this output, do not use the ImageAlign property.
 
 Normally if trnsACT identifies that you are running against localhost, ForceToSSL is ignored. But if you have taken the time/effort to install a developer certificate, you can configure trnsACT to run secure locally.
 
-  ![Certificate](../images/certificate.png)
+  ![Certificate](./images/certificate.png)
 
 ### New Custom Extensions
 
@@ -117,7 +117,7 @@ Some of these are from my personal toolkit of methods/snippits that I’ve used 
 
 1.	IsNotNullIOrEmpty
 
-   ![IsNotNullOrEmpty](../images/isnotnullorempty.png)
+   ![IsNotNullOrEmpty](./images/isnotnullorempty.png)
 
 2.	Prepend
     
@@ -153,7 +153,7 @@ This
 
 Renders this:
 
-   ![BootstrapIcons](../images/bootstrapicons.png)
+   ![BootstrapIcons](./images/bootstrapicons.png)
 
 ### UserID Added to Custom Authentication Ticket
 
