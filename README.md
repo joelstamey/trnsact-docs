@@ -11,7 +11,7 @@ The trnsACT Framework is a .NET framework built to address the challenges faced 
 
 ## Learn More About trnsACT
 
-[See a collection of topics about trnsACT.](./docs/documents.md).
+[See a collection of topics about trnsACT](./docs/documents.md).
 
 ## Release Notes
 

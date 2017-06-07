@@ -11,11 +11,11 @@ trnACT.dll is the core library. It has a number of namespaces, or domains, packe
 * Administration
     * Accounts (aka, Tenants)
 * Application
-    * Startup, a custom inplemenation of System.Web.HttpApplication
+    * Startup, a custom implementation of System.Web.HttpApplication
     * Site Audit
     * Settings 
 * Business
-    * Generic business entitites like address, company, contact
+    * Generic business entities like address, company, contact
 * Commerce
     * Currency Conversions driven by configuration files
 * Communication
@@ -41,6 +41,7 @@ trnACT.dll is the core library. It has a number of namespaces, or domains, packe
 * Web
     * Webform Page Base Classes
     * Customized Webform Controls with Display Filtering
+    * Generic Handlers (Internal API)
 
 There are additional libraries that use trnsACT as a dependency to implement website functionality. They include
 
